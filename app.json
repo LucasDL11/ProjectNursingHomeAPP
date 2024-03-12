@@ -1,0 +1,61 @@
+{
+  "expo": {
+    "name": "residencialapp",
+    "slug": "residencialapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#E16913"
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/notifiicon.png",
+          "color": "#ffffff",
+          "mode": "production",
+          "androidMode": "default"
+        }
+      ]
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.resef.residencialapp"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+        
+   
+      },
+      
+      "permissions": [
+        "RECEIVE_BOOT_COMPLETED",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "INTERNET"
+      ],
+      "package": "com.resef.residencialapp",
+      "googleServicesFile": "./google-services.json"
+    },
+  
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6e9c88fa-4653-4f05-a655-b951f9235fb6"
+      }
+    },
+    
+    "owner": "resef"
+  }
+}

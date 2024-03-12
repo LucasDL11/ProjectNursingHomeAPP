@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "596512539561",
+    "project_id": "notificaciones-23b1b",
+    "storage_bucket": "notificaciones-23b1b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:596512539561:android:fe9cd0d402edb3f40bfab8",
+        "android_client_info": {
+          "package_name": "com.resef.residencialapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "596512539561-itmequon50pqeu8tjjj3takerlth24rc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlWbSRclCsV91y7WaHaoO6vNkkJSXUo1U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "596512539561-itmequon50pqeu8tjjj3takerlth24rc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
